@@ -19,7 +19,7 @@
     "noImplicitAny": false,
     "baseUrl": ".",
     "paths": {
-      "@zedtk/akita": ["packages/akita/src/index.ts"]
+      "@jravoux/akita": ["packages/akita/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

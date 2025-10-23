@@ -1,4 +1,4 @@
-name: Publish @zedtk/akita
+name: Publish @jravoux/akita
 
 on:
   release:

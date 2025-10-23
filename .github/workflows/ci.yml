@@ -1,4 +1,4 @@
-name: '@zedtk/akita'
+name: '@jravoux/akita'
 
 on:
   pull_request:
