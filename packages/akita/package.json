@@ -1,6 +1,6 @@
 {
   "name": "@jravoux/akita",
-  "version": "8.0.1",
+  "version": "8.0.2",
   "description": "A Reactive State Management Tailored-Made for JS Applications",
   "keywords": [
     "angular",
