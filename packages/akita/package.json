@@ -1,5 +1,5 @@
 {
-  "name": "@datorama/akita",
+  "name": "@jravoux/akita",
   "version": "8.0.1",
   "description": "A Reactive State Management Tailored-Made for JS Applications",
   "keywords": [
@@ -16,13 +16,13 @@
     "redux",
     "reactive"
   ],
-  "homepage": "https://github.com/datorama/akita/tree/master/libs/akita#readme",
+  "homepage": "https://github.com/jravoux/akita/tree/master/libs/akita#readme",
   "bugs": {
-    "url": "https://github.com/datorama/akita/issues"
+    "url": "https://github.com/jravoux/akita/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/datorama/akita",
+    "url": "https://github.com/jravoux/akita",
     "directory": "libs/akita"
   },
   "license": "Apache-2.0",
