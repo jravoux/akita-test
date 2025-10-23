@@ -7,9 +7,6 @@ on:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: packages/akita
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-node@v6
@@ -17,7 +14,9 @@ jobs:
           node-version: '20'
           cache: 'npm'
           registry-url: https://registry.npmjs.org/
-      - run: npm install
+      - run: npm ci
+      - run: npm run build
       - run: npm publish --access public
+        working-directory: dist/packages/akita
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
